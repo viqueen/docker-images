@@ -1,4 +1,4 @@
-FROM golang:1.23.5 AS go
+FROM golang:1.24.2 AS go
 
 RUN go install github.com/riverqueue/river/cmd/river@latest
 
