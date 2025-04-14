@@ -9,3 +9,7 @@ it comes with [buf](https://buf.build) tooling with the following protoc plugins
 - [protoc-gen-connect-go](https://github.com/connectrpc/connect-go/tree/main/cmd/protoc-gen-connect-go)
 - [protoc-gen-sqlc](https://github.com/viqueen/protoc-gen-sqlc)
 - [protoc-gen-connect-go-backend](https://github.com/viqueen/protoc-gen-connect-go-backend)
+
+### golang
+
+it comes with [golang](https://golang.org) and [godocdown](https://github.com/robertkrimen/godocdown)
