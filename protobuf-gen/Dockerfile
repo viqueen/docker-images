@@ -1,7 +1,7 @@
 FROM bufbuild/buf:1.51.0 AS buf
 
 
-FROM golang:1.24.2 AS go
+FROM golang:1.24.3 AS go
 
 RUN go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.36.2
 RUN go install connectrpc.com/connect/cmd/protoc-gen-connect-go@v1.18.1
