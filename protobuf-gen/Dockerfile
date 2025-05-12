@@ -1,4 +1,4 @@
-FROM bufbuild/buf:1.51.0 AS buf
+FROM bufbuild/buf:1.54.0 AS buf
 
 
 FROM golang:1.24.2 AS go
